@@ -9,6 +9,13 @@
     width: 160px;
     height: 134px;
     margin: 15px 5px 42px;
+
+    transition: transform 1s;
+  }
+
+  &__photo:hover {
+    border: 3px solid #f3f3f3;
+    transform: scale(1.2);
   }
   
   &__name {
@@ -78,17 +85,17 @@
     font-size: 16px;
     font-weight: 700;
   }
-  
+
   &__button {
     display: block;
     width: 170px;
     height: 40px;
     margin-top: 20px;
-  
+
     border: 1px solid #00acdc;
     border-radius: 5px;
     background-color: #00acdc;
-  
+
     line-height: 40px;
     font-size: 14px;
     font-weight: 700;
@@ -96,6 +103,8 @@
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
+
+    transition: background-color 0.8s, color 0.8s;
   }
   
   &__button:hover {
